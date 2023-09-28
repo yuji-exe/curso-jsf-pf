@@ -12,6 +12,15 @@
   <name>curso-jsf-pf Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+
+    <dependency>
+      <groupId>org.jboss.weld.servlet</groupId>
+      <artifactId>weld-servlet</artifactId>
+      <version>2.4.0.Final</version>
+      <scope>compile</scope>
+    </dependency>
+
+
     <dependency>
       <groupId>org.glassfish</groupId>
       <artifactId>javax.faces</artifactId>
