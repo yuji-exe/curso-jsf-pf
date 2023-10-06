@@ -13,6 +13,7 @@ import com.algaworks.erp.model.RamoAtividade;
 import com.algaworks.erp.model.TipoEmpresa;
 import com.algaworks.erp.repository.Empresas;
 import com.algaworks.erp.repository.RamoAtividades;
+import com.algaworks.erp.service.CadastroEmpresaService;
 import com.algaworks.erp.util.FacesMessages;
 
 @Named
@@ -35,6 +36,34 @@ public class GestaoEmpresasBean implements Serializable {
     private List<Empresa> listaEmpresas;
 
     private String termoPesquisa;
+
+    private Empresa empresa;
+
+    @Inject
+    private CadastroEmpresaService cadastroEmpresaService;
+
+    public void prepararNovaEmpresa(){
+        empresa = new Empresa();
+    }
+
+    public void salvar(){
+        cadastroEmpresaService.salvar(empresa);
+
+        if(jaHouvePesquisa()){
+            pesquisar();
+        }
+
+        messages.info("Empresa cadastrada com sucesso.");
+    }
+
+    private boolean jaHouvePesquisa(){
+        return termoPesquisa != null && !"".equals(termoPesquisa);
+    }
+
+    public Empresa getEmpresa() {
+        return empresa;
+    }
+
     public void pesquisar(){
         listaEmpresas = empresas.pesquisar(termoPesquisa);
 
