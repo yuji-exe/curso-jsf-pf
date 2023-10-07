@@ -13,3 +13,17 @@ insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao,
 insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (2, '52.822.994/0001-25', 'Fale Mais', 'Fale Mais Telecom S.A.', 'SA', '1997-12-10', 2);
 insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (3, '41.952.519/0001-57', 'Maria de Souza da Silva', 'Maria de Souza da Silva', 'MEI', '2014-10-15', 3);
 insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (4, '16.134.777/0001-89', 'Gomes Inovação', 'José Fernando Gomes EIRELI ME', 'EIRELI', '2009-03-02', 4);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (5, '31.947.070/0001-85','Bella Vista', 'Bella Vista Turismo Ltda', 'LTDA', '2010-05-12', 7);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (6, '12.433.856/0001-30', 'Saúde Total', 'Saúde Total Serviços Médicos S.A.', 'SA', '2005-07-20', 8);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (7, '19.970.882/0001-46', 'Educação e Futuro', 'Educação e Futuro EIRELI ME', 'EIRELI', '2012-01-30', 9);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (8, '06.121.830/0001-53', 'Lazer Park', 'Lazer Park Entretenimento Ltda', 'LTDA', '2018-11-15', 10);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (9, '98.382.440/0001-55', 'Tech Solutions', 'Tech Solutions Ltda', 'LTDA', '2011-06-14', 2);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (10, '20.049.336/0001-56', 'Fashion Trends', 'Fashion Trends S.A.', 'SA', '2006-08-21', 3);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (11, '13.611.894/0001-06', 'Clean & Fresh', 'Clean & Fresh EIRELI ME', 'EIRELI', '2013-02-28', 4);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (12, '26.800.873/0001-72', 'Print Express', 'Print Express Ltda', 'LTDA', '2019-12-10', 5);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (13, '98.411.280/0001-25', 'AutoFix', 'AutoFix S.A.', 'SA', '2007-09-30', 6);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (14, '70.888.466/0001-50', 'Travel Dreams', 'Travel Dreams EIRELI ME', 'EIRELI', '2015-03-15', 7);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (15, '00.160.211/0001-91', 'Wellness Clinic', 'Wellness Clinic Ltda', 'LTDA', '2010-04-20', 8);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (16, '26.908.167/0001-49', 'Smart Minds Academy', 'Smart Minds Academy S.A.', 'SA', '2008-05-25', 9);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (17, '51.650.109/0001-05', 'Fun Time Entertainment','Fun Time Entertainment EIRELI ME','EIRELI','2016-06-30',10);
+insert into empresa (id, cnpj, nome_fantasia, razao_social, tipo, data_fundacao, ramo_atividade_id) values (18, '02.456.862/0001-59', 'Quick Bites','Quick Bites Ltda','LTDA','2017-07-15' ,1);
