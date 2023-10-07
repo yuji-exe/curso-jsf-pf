@@ -118,4 +118,8 @@ public class GestaoEmpresasBean implements Serializable {
     public void setEmpresa(Empresa empresa) {
         this.empresa = empresa;
     }
+
+    public void prepararEdicao(){
+        ramoAtividadeConverter = new RamoAtividadeConverter(Arrays.asList(empresa.getRamoAtividade()));
+    }
 }
