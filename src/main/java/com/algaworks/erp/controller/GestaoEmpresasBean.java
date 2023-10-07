@@ -110,4 +110,12 @@ public class GestaoEmpresasBean implements Serializable {
     public Converter getRamoAtividadeConverter() {
         return ramoAtividadeConverter;
     }
+
+    public boolean isEmpresaSelecionada(){
+        return empresa != null && empresa.getId() != null;
+    }
+
+    public void setEmpresa(Empresa empresa) {
+        this.empresa = empresa;
+    }
 }
